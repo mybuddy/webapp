@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:theme">@style/ToolbarTheme</item>
+        <item name="titleTextAppearance">@style/ToolbarTitleText</item>
+        <item name="popupTheme">@style/ToolbarPopup</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- 标题颜色 -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <!-- action item颜色 -->
+        <item name="android:actionMenuTextColor">?android:attr/textColorPrimary</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="ToolbarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="ToolbarPopup" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textSize">18sp</item>
+        <!--<item name="android:textColor">@color/white</item>-->
+    </style>
+
+</resources>

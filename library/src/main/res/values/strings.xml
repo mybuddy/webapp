@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="web_view_error_message">未获取到结果，请稍候重试</string>
+</resources>
