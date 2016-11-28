@@ -34,6 +34,7 @@ captures/
 
 # Intellij
 *.iml
+.idea
 .idea/workspace.xml
 .idea/libraries/
 
@@ -42,3 +43,6 @@ captures/
 
 # MacOS
 .DS_Store
+
+#
+.externalNativeBuild
